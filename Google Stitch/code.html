@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="pt-BR"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>MarchEng | Engenharia e Energia</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&amp;family=Hanken+Grotesk:wght@400;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "text-secondary": "#9ca3af",
+                    "tertiary-container": "#7d5701",
+                    "surface-container-high": "#252a36",
+                    "primary-fixed": "#d1e4ff",
+                    "surface-tint": "#9ecaff",
+                    "on-tertiary-container": "#ffd185",
+                    "surface-bright": "#343946",
+                    "text-primary": "#e5e7eb",
+                    "primary": "#9ecaff",
+                    "secondary-container": "#b38b13",
+                    "primary-fixed-dim": "#9ecaff",
+                    "bg-deep": "#0a0f1a",
+                    "tertiary-fixed-dim": "#f1be66",
+                    "divider": "rgba(255, 255, 255, 0.06)",
+                    "on-secondary-fixed": "#251a00",
+                    "secondary-fixed": "#ffdf98",
+                    "surface-container-highest": "#303541",
+                    "error": "#ffb4ab",
+                    "on-primary-fixed-variant": "#0d4979",
+                    "accent-gold-muted": "rgba(225, 180, 63, 0.15)",
+                    "surface-variant": "#303541",
+                    "on-error": "#690005",
+                    "outline": "#8c919a",
+                    "on-secondary": "#3e2e00",
+                    "outline-variant": "#42474f",
+                    "surface-dim": "#0e131e",
+                    "on-surface-variant": "#c2c7d0",
+                    "tertiary": "#f1be66",
+                    "on-primary-container": "#bfdbff",
+                    "on-tertiary": "#422c00",
+                    "on-tertiary-fixed": "#271900",
+                    "error-container": "#93000a",
+                    "primary-container": "#2f6192",
+                    "surface-container": "#1b1f2b",
+                    "surface-container-low": "#171b27",
+                    "on-primary-fixed": "#001d36",
+                    "on-background": "#dee2f2",
+                    "tertiary-fixed": "#ffdeab",
+                    "secondary-fixed-dim": "#efc04a",
+                    "surface": "#0e131e",
+                    "secondary": "#efc04a",
+                    "on-surface": "#dee2f2",
+                    "inverse-surface": "#dee2f2",
+                    "surface-container-lowest": "#090e19",
+                    "on-secondary-fixed-variant": "#5a4300",
+                    "on-secondary-container": "#362800",
+                    "inverse-primary": "#2f6192",
+                    "bg-surface": "#0d1420",
+                    "background": "#0e131e",
+                    "on-tertiary-fixed-variant": "#5f4100",
+                    "on-error-container": "#ffdad6",
+                    "on-primary": "#003258",
+                    "inverse-on-surface": "#2b303c"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "spacing": {
+                    "unit": "8px",
+                    "margin-desktop": "40px",
+                    "gutter": "24px",
+                    "container-max": "1200px",
+                    "margin-mobile": "16px"
+            },
+            "fontFamily": {
+                    "label-md": ["Hanken Grotesk"],
+                    "headline-lg": ["Manrope"],
+                    "headline-md": ["Manrope"],
+                    "body-sm": ["Hanken Grotesk"],
+                    "body-md": ["Hanken Grotesk"],
+                    "headline-lg-mobile": ["Manrope"],
+                    "headline-xl": ["Manrope"],
+                    "body-lg": ["Hanken Grotesk"]
+            },
+            "fontSize": {
+                    "label-md": ["12px", {"lineHeight": "1", "letterSpacing": "0.05em", "fontWeight": "600"}],
+                    "headline-lg": ["32px", {"lineHeight": "1.2", "letterSpacing": "-0.01em", "fontWeight": "700"}],
+                    "headline-md": ["24px", {"lineHeight": "1.3", "fontWeight": "700"}],
+                    "body-sm": ["14px", {"lineHeight": "1.5", "fontWeight": "400"}],
+                    "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                    "headline-lg-mobile": ["28px", {"lineHeight": "1.2", "fontWeight": "700"}],
+                    "headline-xl": ["48px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "800"}],
+                    "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "400"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        }
+        .hero-pattern {
+            background-image: radial-gradient(circle at 50% 50%, rgba(239, 192, 74, 0.05) 0%, transparent 50%),
+                              linear-gradient(rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+                              linear-gradient(90deg, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+            background-size: 100% 100%, 40px 40px, 40px 40px;
+        }
+    </style>
+<style>
+        body {
+          min-height: max(884px, 100dvh);
+        }
+    </style>
+</head>
+<body class="bg-background text-text-primary font-body-md selection:bg-secondary selection:text-bg-deep">
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full z-50 bg-surface/80 backdrop-blur-xl border-b border-divider">
+<div class="flex justify-between items-center h-20 px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-headline-md" data-icon="bolt">bolt</span>
+<span class="text-headline-md font-headline-md text-text-primary tracking-tight">MarchEng</span>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-text-primary font-label-md text-label-md hover:text-secondary transition-colors duration-200" href="#servicos">Serviços</a>
+<a class="text-text-primary font-label-md text-label-md hover:text-secondary transition-colors duration-200" href="#sobre">Sobre</a>
+<a class="text-text-primary font-label-md text-label-md hover:text-secondary transition-colors duration-200" href="#clientes">Clientes</a>
+<a class="text-text-primary font-label-md text-label-md hover:text-secondary transition-colors duration-200" href="#contato">Contato</a>
+</nav>
+<button class="bg-primary-container text-on-primary-container px-6 py-2.5 text-label-md font-label-md hover:opacity-80 transition-opacity rounded-lg">
+            Solicitar orçamento
+        </button>
+</div>
+</header>
+<main>
+<!-- Hero Section -->
+<section class="relative min-h-screen flex items-center hero-pattern pt-8">
+<div class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto w-full grid grid-cols-1 lg:grid-cols-12 gap-12">
+<div class="lg:col-span-8 flex flex-col justify-center">
+<span class="text-secondary font-label-md text-label-md uppercase tracking-[0.2em] mb-6">ENGENHARIA E ENERGIA</span>
+<h1 class="font-headline-xl text-headline-xl mb-6 leading-none">
+                    Mais que preço, oferecemos <span class="text-primary">qualidade</span> que transforma.
+                </h1>
+<p class="text-text-secondary text-body-lg max-w-2xl mb-10 leading-relaxed">Engenharia solar de ponta a ponta, desde 2017. 100+ MW de Projetos Executivos e Usinas Fotovoltaicas Comissionadas em todo o Brasil.</p>
+<div class="flex flex-col sm:flex-row gap-4">
+<button class="bg-primary-container text-on-primary-container px-8 py-4 text-label-md font-label-md rounded-lg hover:opacity-90 transition-opacity">
+                        Solicitar orçamento
+                    </button>
+<button class="border border-primary text-primary px-8 py-4 text-label-md font-label-md rounded-lg hover:bg-primary/10 transition-colors">
+                        Conheça a empresa
+                    </button>
+</div>
+</div>
+</div>
+<!-- Hero Decorative Glow -->
+<div class="absolute right-0 bottom-0 w-1/2 h-1/2 bg-secondary/5 blur-[120px] -z-10 rounded-full"></div>
+</section>
+<!-- Stats Section -->
+<section class="py-24 bg-surface-container-low border-y border-divider">
+<div class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+<div class="flex flex-col">
+<span class="text-secondary text-[48px] font-extrabold leading-none mb-2">200+ MW</span>
+<span class="text-text-secondary font-label-md text-label-md uppercase tracking-wider">Em parecer de acesso aprovados</span>
+</div>
+<div class="flex flex-col">
+<span class="text-secondary text-[48px] font-extrabold leading-none mb-2">50+ MW</span>
+<span class="text-text-secondary font-label-md text-label-md uppercase tracking-wider">Em projetos executivos entregues</span>
+</div>
+<div class="flex flex-col">
+<span class="text-secondary text-[48px] font-extrabold leading-none mb-2">30+</span>
+<span class="text-text-secondary font-label-md text-label-md uppercase tracking-wider">Usinas comissionadas</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Serviços Section -->
+<section class="py-32" id="servicos">
+<div class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+<div class="mb-20 max-w-2xl">
+<span class="text-secondary font-label-md text-label-md uppercase tracking-[0.2em] block mb-4">O QUE FAZEMOS</span>
+<h2 class="font-headline-lg text-headline-lg text-text-primary">Cinco frentes técnicas, do projeto à operação.</h2>
+</div>
+<!-- Services Grid -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
+<!-- Engenharia -->
+<div class="p-8 bg-bg-surface border border-divider rounded-lg hover:border-secondary transition-all group cursor-default h-full">
+<span class="material-symbols-outlined text-secondary text-4xl mb-6 block group-hover:scale-110 transition-transform">engineering</span>
+<h4 class="font-headline-md text-headline-md mb-4">Engenharia</h4>
+<p class="text-text-secondary leading-relaxed text-body-md"><div class="space-y-2"><p><span class="text-secondary font-semibold text-body-sm block uppercase tracking-wider mb-1">Solar</span>Projetos Executivos, Análise de Viabilidades, Estudos de Sombreamento (PVsyst).</p><p><span class="text-secondary font-semibold text-body-sm block uppercase tracking-wider mb-1">Elétrica</span>Projetos Elétricos Industriais, Estudos de Seletividade e Laudos Técnicos.</p></div></p>
+</div>
+<!-- Due Diligence -->
+<div class="p-8 bg-bg-surface border border-divider rounded-lg hover:border-secondary transition-all group cursor-default h-full">
+<span class="material-symbols-outlined text-secondary text-4xl mb-6 block group-hover:scale-110 transition-transform">verified</span>
+<h4 class="font-headline-md text-headline-md mb-4">Due Diligence</h4>
+<p class="text-text-secondary leading-relaxed text-body-md">Auditoria técnica rigorosa e análise de conformidade para ativos de geração solar fotovoltaica.</p>
+</div>
+<!-- Comissionamento -->
+<div class="p-8 bg-bg-surface border border-divider rounded-lg hover:border-secondary transition-all group cursor-default h-full">
+<span class="material-symbols-outlined text-secondary text-4xl mb-6 block group-hover:scale-110 transition-transform">build</span>
+<h4 class="font-headline-md text-headline-md mb-4">Comissionamento</h4>
+<p class="text-text-secondary leading-relaxed text-body-md">Testes operacionais completos de usinas e subestações de média tensão para garantir performance e segurança.</p>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:max-w-4xl md:mx-auto">
+<!-- Construção -->
+<div class="p-8 bg-bg-surface border border-divider rounded-lg hover:border-secondary transition-all group cursor-default h-full">
+<span class="material-symbols-outlined text-secondary text-4xl mb-6 block group-hover:scale-110 transition-transform">construction</span>
+<h4 class="font-headline-md text-headline-md mb-4">Construção</h4>
+<p class="text-text-secondary leading-relaxed text-body-md">Execução integral de usinas solares, integrando engenharia de detalhamento à implantação física no campo.</p>
+</div>
+<!-- O&M -->
+<div class="p-8 bg-bg-surface border border-divider rounded-lg hover:border-secondary transition-all group cursor-default h-full">
+<span class="material-symbols-outlined text-secondary text-4xl mb-6 block group-hover:scale-110 transition-transform">settings_suggest</span>
+<h4 class="font-headline-md text-headline-md mb-4">O&amp;M</h4>
+<p class="text-text-secondary leading-relaxed text-body-md">Gestão completa de Operação e Manutenção através da Splendor O&amp;M, maximizando a disponibilidade dos ativos.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Sobre Section -->
+<section class="py-32 bg-surface-container-low overflow-hidden" id="sobre">
+<div class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+<div class="relative">
+<div class="absolute -inset-4 bg-secondary/10 blur-2xl rounded-full opacity-50"></div>
+<img alt="Equipe MarchEng em campo" class="relative rounded-lg shadow-2xl grayscale hover:grayscale-0 transition-all duration-700 w-full object-cover aspect-[4/3]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC_8Hlpeq02upSG7ysf_PxWYNV9pm4-QBTDRZ1eTMNMHMcmvt8U1NBoIDUOVbiopmbb8dGZtREHbJlatJq46T7NA9uGdjawnjR7bQzOW2eNcAFoxN6-DYw3FrqiyIDpafyDijjYFPlGx1AXcQPP9w-rMOod-Z3jvEUokw1aWUe-SQGiw8y-MR0Y1IrpLvIcszxfZNZMLQhetbcdW_gjfsw8z2aCbIdXG-hsDM3oe__jMBuQAqSZhDyjgr2Z40oFiiVRMrEgTOU8-TI"/>
+</div>
+<div>
+<span class="text-secondary font-label-md text-label-md uppercase tracking-[0.2em] block mb-4">SOBRE A MARCHENG</span>
+<h2 class="font-headline-lg text-headline-lg mb-8">Tradição italiana unida à inovação sustentável brasileira.</h2>
+<div class="space-y-6 text-text-secondary text-body-lg leading-relaxed">
+<p>Atuando desde 2017 no mercado de energia, a MarchEng carrega em seu DNA o rigor técnico e a excelência operacional herdados da família Marchesini.</p>
+<p>Nossa missão é transformar o cenário energético brasileiro através de uma engenharia consultiva de elite, onde cada projeto é tratado com precisão cirúrgica e compromisso inegociável com a qualidade.</p>
+<p>Com sede estratégica e atuação nacional, consolidamos nossa presença através de centenas de usinas homologadas que hoje geram energia limpa para todo o país.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Clientes Section -->
+<section class="py-24 px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto text-center" id="clientes">
+<h3 class="font-label-md text-label-md text-text-secondary uppercase tracking-[0.2em] mb-12">Empresas que confiam na MarchEng</h3>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-12 items-center opacity-40 hover:opacity-100 transition-opacity">
+<div class="flex justify-center p-8 bg-surface-container rounded-lg border border-divider">
+<div class="h-12 w-32 bg-text-secondary/20 rounded flex items-center justify-center font-bold text-text-secondary italic">LOGO 1</div>
+</div>
+<div class="flex justify-center p-8 bg-surface-container rounded-lg border border-divider">
+<div class="h-12 w-32 bg-text-secondary/20 rounded flex items-center justify-center font-bold text-text-secondary italic">LOGO 2</div>
+</div>
+<div class="flex justify-center p-8 bg-surface-container rounded-lg border border-divider">
+<div class="h-12 w-32 bg-text-secondary/20 rounded flex items-center justify-center font-bold text-text-secondary italic">LOGO 3</div>
+</div>
+<div class="flex justify-center p-8 bg-surface-container rounded-lg border border-divider">
+<div class="h-12 w-32 bg-text-secondary/20 rounded flex items-center justify-center font-bold text-text-secondary italic">LOGO 4</div>
+</div>
+<div class="flex justify-center p-8 bg-surface-container rounded-lg border border-divider">
+<div class="h-12 w-32 bg-text-secondary/20 rounded flex items-center justify-center font-bold text-text-secondary italic">LOGO 5</div>
+</div>
+<div class="flex justify-center p-8 bg-surface-container rounded-lg border border-divider">
+<div class="h-12 w-32 bg-text-secondary/20 rounded flex items-center justify-center font-bold text-text-secondary italic">LOGO 6</div>
+</div>
+<div class="flex justify-center p-8 bg-surface-container rounded-lg border border-divider">
+<div class="h-12 w-32 bg-text-secondary/20 rounded flex items-center justify-center font-bold text-text-secondary italic">LOGO 7</div>
+</div>
+<div class="flex justify-center p-8 bg-surface-container rounded-lg border border-divider">
+<div class="h-12 w-32 bg-text-secondary/20 rounded flex items-center justify-center font-bold text-text-secondary italic">LOGO 8</div>
+</div>
+</div>
+</section>
+<!-- Contato Section -->
+<section class="py-32 px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto" id="contato">
+<div class="text-center mb-16">
+<h2 class="font-headline-lg text-headline-lg mb-4">Vamos conversar sobre seu projeto</h2>
+<p class="text-text-secondary text-body-lg">Nossa equipe técnica está pronta para analisar sua necessidade.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+<a class="flex items-center gap-6 p-8 bg-bg-surface border border-divider rounded-lg hover:border-secondary transition-all group" href="https://wa.me/5517997377626">
+<div class="w-16 h-16 bg-accent-gold-muted flex items-center justify-center rounded-full group-hover:bg-secondary/20 transition-colors">
+<span class="material-symbols-outlined text-secondary text-3xl" data-icon="chat">chat</span>
+</div>
+<div>
+<span class="text-label-md font-label-md text-text-secondary block mb-1">WhatsApp</span>
+<span class="text-body-lg font-bold">+55 17 99737-7626</span>
+</div>
+</a>
+<a class="flex items-center gap-6 p-8 bg-bg-surface border border-divider rounded-lg hover:border-secondary transition-all group" href="mailto:renan@marcheng.com.br">
+<div class="w-16 h-16 bg-accent-gold-muted flex items-center justify-center rounded-full group-hover:bg-secondary/20 transition-colors">
+<span class="material-symbols-outlined text-secondary text-3xl" data-icon="mail">mail</span>
+</div>
+<div>
+<span class="text-label-md font-label-md text-text-secondary block mb-1">E-mail Corporativo</span>
+<span class="text-body-lg font-bold">renan@marcheng.com.br</span>
+</div>
+</a>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-bg-deep border-t border-divider pt-20 pb-10">
+<div class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-12 mb-16">
+<div class="flex flex-col gap-4">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-headline-md" data-icon="bolt">bolt</span>
+<span class="text-headline-md font-headline-md text-text-primary tracking-tight">MarchEng</span>
+</div>
+<p class="text-text-secondary text-body-sm leading-relaxed max-w-xs">
+                    Engenharia e energia com precisão técnica e compromisso com o futuro sustentável desde 2017.
+                </p>
+</div>
+<div class="flex flex-col gap-4">
+<h4 class="text-label-md font-label-md text-secondary uppercase tracking-widest mb-2">Navegação</h4>
+<a class="text-text-secondary text-body-md hover:text-primary transition-colors" href="#servicos">Serviços</a>
+<a class="text-text-secondary text-body-md hover:text-primary transition-colors" href="#sobre">Sobre</a>
+<a class="text-text-secondary text-body-md hover:text-primary transition-colors" href="#clientes">Clientes</a>
+<a class="text-text-secondary text-body-md hover:text-primary transition-colors" href="#contato">Contato</a>
+</div>
+<div class="flex flex-col gap-4">
+<h4 class="text-label-md font-label-md text-secondary uppercase tracking-widest mb-2">Sede</h4>
+<p class="text-text-secondary text-body-md">São José do Rio Preto, SP</p>
+<p class="text-text-secondary text-body-md">Atuação em todo o território nacional.</p>
+</div>
+</div>
+<div class="pt-8 border-t border-divider flex flex-col md:flex-row justify-between items-center gap-4">
+<p class="text-text-secondary text-label-md font-label-md">© 2026 MarchEng Engenharia e Energia. Todos os direitos reservados.</p>
+<div class="flex gap-8">
+<a class="text-text-secondary text-label-md font-label-md hover:text-secondary transition-colors" href="#">Termos de Uso</a>
+<a class="text-text-secondary text-label-md font-label-md hover:text-secondary transition-colors" href="#">Privacidade</a>
+</div>
+</div>
+</div>
+</footer>
+</body></html>

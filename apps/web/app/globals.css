@@ -1,3 +1,64 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=Hanken+Grotesk:wght@400;500;600;700&display=swap");
+
+:root {
+  --brand-primary: #2f6192;
+  --brand-accent: #e1b43f;
+  --bg-deep: #0a0f1a;
+  --bg-surface: #0d1420;
+  --text-primary: #e5e7eb;
+  --text-secondary: #9ca3af;
+  --divider: rgba(255, 255, 255, 0.06);
+  --accent-gold-muted: rgba(225, 180, 63, 0.15);
+}
+
+html,
+body {
+  background:
+    radial-gradient(ellipse at top, rgba(47, 97, 146, 0.08) 0%, transparent 50%),
+    linear-gradient(180deg, #0a0f1a 0%, #0d1420 100%);
+  background-attachment: fixed;
+  color: var(--text-primary);
+  font-family: "gill-sans-nova", "Gill Sans MT", "Hanken Grotesk", system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "bronova", "Manrope", system-ui, sans-serif;
+}
+
+::selection {
+  background: var(--brand-accent);
+  color: var(--bg-deep);
+}
+
+.hero-pattern {
+  background-image:
+    radial-gradient(circle at 50% 50%, rgba(239, 192, 74, 0.05) 0%, transparent 50%),
+    linear-gradient(rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+  background-size:
+    100% 100%,
+    40px 40px,
+    40px 40px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

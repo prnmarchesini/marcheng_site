@@ -1,1 +1,84 @@
-{}
+{
+  "meta": {
+    "title": "MarchEng | Ingegneria ed Energia",
+    "description": "Ingegneria solare integrale dal 2017. Progetti esecutivi, messa in servizio, due diligence tecnica e impianti fotovoltaici in tutto il Brasile."
+  },
+  "nav": {
+    "primary": "Navigazione principale",
+    "services": "Servizi",
+    "about": "Chi siamo",
+    "clients": "Clienti",
+    "contact": "Contatti",
+    "cta": "Richiedi preventivo",
+    "openMenu": "Apri menu",
+    "closeMenu": "Chiudi menu",
+    "languageSwitcher": "Seleziona lingua"
+  },
+  "hero": {
+    "eyebrow": "Ingegneria ed Energia",
+    "headline": "Oltre il prezzo, offriamo la <accent>qualità</accent> che trasforma.",
+    "subheadline": "Ingegneria solare integrale dal 2017. 100+ impianti omologati e 200 MW di parere di allacciamento approvati in tutto il Brasile.",
+    "ctaPrimary": "Richiedi preventivo",
+    "ctaSecondary": "Scopri l'azienda"
+  },
+  "stats": {
+    "accessApproval": "In parere di allacciamento approvati",
+    "detailedEngineering": "In progetti esecutivi consegnati",
+    "gridApproved": "Impianti omologati",
+    "commissioned": "Impianti messi in servizio"
+  },
+  "services": {
+    "eyebrow": "Cosa facciamo",
+    "title": "Cinque fronti tecnici, dal progetto all'esercizio.",
+    "subtitle": "Copriamo l'intero ciclo di vita di un impianto solare — dalla progettazione esecutiva all'esercizio assistito in campo.",
+    "items": {
+      "learnMore": "Scopri di più",
+      "solar": {
+        "title": "Ingegneria Solare",
+        "description": "Progetti completi di impianti solari, comprendenti Elettrica, Civile, Comunicazioni e Sicurezza."
+      },
+      "electrical": {
+        "title": "Ingegneria Elettrica",
+        "description": "Studi tecnici di corto circuito, selettività, messa a terra, qualità dell'energia e misure in campo."
+      },
+      "owner": {
+        "title": "Ingegneria del Proprietario",
+        "description": "Supervisione tecnica durante l'intero ciclo del progetto, con relazioni e perizie conformi alle norme."
+      },
+      "commissioning": {
+        "title": "Messa in Servizio e Manutenzione",
+        "description": "Verifica tecnica completa e manutenzione di impianti solari, con un cronoprogramma rigoroso di prove."
+      },
+      "dueDiligence": {
+        "title": "Due Diligence Tecnica",
+        "description": "Audit tecnico di impianti solari per acquisizione, rifinanziamento o analisi delle performance."
+      }
+    }
+  },
+  "about": {
+    "eyebrow": "Su MarchEng",
+    "title": "Ingegneria solare, con l'esperienza di chi è nel settore dal 2017.",
+    "paragraph1": "MarchEng Engenharia opera dal 2017 nei settori dell'energia solare ed elettrica. Dalla concezione del progetto esecutivo all'entrata in esercizio dell'impianto, offriamo supporto tecnico completo con un team di specialisti impegnati nei più alti standard di ingegneria e sicurezza.",
+    "paragraph2": "Il nome MarchEng porta con sé l'eredità italiana del fondatore — la famiglia Marchesini, originaria di Felonica, in provincia di Mantova, Lombardia. È un richiamo quotidiano al fatto che l'ingegneria è mestiere, non scorciatoia: rigore tecnico, scadenze rispettate e l'impegno a mettere in esercizio ogni impianto.",
+    "imagePlaceholder": "Immagine in arrivo"
+  },
+  "clients": {
+    "title": "Aziende che si affidano a MarchEng",
+    "subtitle": "Partner che ci affidano il ciclo tecnico dei loro impianti.",
+    "logoAlt": "Cliente"
+  },
+  "contact": {
+    "title": "Parliamo del tuo progetto",
+    "subtitle": "Il nostro team tecnico è pronto ad analizzare le tue esigenze.",
+    "whatsappLabel": "WhatsApp",
+    "emailLabel": "E-mail aziendale"
+  },
+  "footer": {
+    "tagline": "Ingegneria ed energia con precisione tecnica e impegno per un futuro sostenibile dal 2017.",
+    "location": "Santa Adélia - SP, Brasile",
+    "contactTitle": "Contatti",
+    "servicesTitle": "Servizi",
+    "whatsapp": "WhatsApp",
+    "copyright": "© 2026 MarchEng Engenharia Ltda. Tutti i diritti riservati."
+  }
+}

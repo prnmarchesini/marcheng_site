@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 48" role="img" aria-label="MarchEng">
+  <g fill="none" stroke="#9ecaff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M14 6 L8 26 H16 L12 42 L24 22 H16 L20 6 Z" fill="#9ecaff"/>
+  </g>
+  <text x="40" y="32" font-family="Manrope, system-ui, sans-serif" font-size="22" font-weight="800" fill="#e5e7eb" letter-spacing="-0.5">MarchEng</text>
+</svg>

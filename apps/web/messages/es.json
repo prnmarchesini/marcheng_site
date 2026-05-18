@@ -1,1 +1,84 @@
-{}
+{
+  "meta": {
+    "title": "MarchEng | Ingeniería y Energía",
+    "description": "Ingeniería solar integral desde 2017. Proyectos ejecutivos, puesta en marcha, due diligence técnica y plantas fotovoltaicas en todo Brasil."
+  },
+  "nav": {
+    "primary": "Navegación principal",
+    "services": "Servicios",
+    "about": "Sobre",
+    "clients": "Clientes",
+    "contact": "Contacto",
+    "cta": "Solicitar presupuesto",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "languageSwitcher": "Seleccionar idioma"
+  },
+  "hero": {
+    "eyebrow": "Ingeniería y Energía",
+    "headline": "Más que precio, ofrecemos <accent>calidad</accent> que transforma.",
+    "subheadline": "Ingeniería solar integral, desde 2017. 100+ plantas homologadas y 200 MW de dictámenes de acceso aprobados en todo Brasil.",
+    "ctaPrimary": "Solicitar presupuesto",
+    "ctaSecondary": "Conozca la empresa"
+  },
+  "stats": {
+    "accessApproval": "En dictámenes de acceso aprobados",
+    "detailedEngineering": "En proyectos ejecutivos entregados",
+    "gridApproved": "Plantas homologadas",
+    "commissioned": "Plantas puestas en marcha"
+  },
+  "services": {
+    "eyebrow": "Lo que hacemos",
+    "title": "Cinco frentes técnicos, del proyecto a la operación.",
+    "subtitle": "Cubrimos todo el ciclo de vida de una planta solar — desde el proyecto ejecutivo hasta la operación asistida en campo.",
+    "items": {
+      "learnMore": "Saber más",
+      "solar": {
+        "title": "Ingeniería Solar",
+        "description": "Proyectos completos de plantas solares, abarcando Eléctrica, Civil, Comunicaciones y Seguridad."
+      },
+      "electrical": {
+        "title": "Ingeniería Eléctrica",
+        "description": "Estudios técnicos de cortocircuito, selectividad, puesta a tierra, calidad de energía y mediciones en campo."
+      },
+      "owner": {
+        "title": "Ingeniería del Propietario",
+        "description": "Seguimiento técnico durante todo el ciclo del proyecto, con informes y dictámenes conforme a normativa."
+      },
+      "commissioning": {
+        "title": "Puesta en Marcha y Mantenimiento",
+        "description": "Verificación técnica integral y mantenimiento de plantas solares, con un cronograma riguroso de ensayos."
+      },
+      "dueDiligence": {
+        "title": "Due Diligence Técnica",
+        "description": "Auditoría técnica de plantas solares para adquisición, refinanciamiento o análisis de performance."
+      }
+    }
+  },
+  "about": {
+    "eyebrow": "Sobre MarchEng",
+    "title": "Ingeniería solar, con la experiencia de quienes están en el sector desde 2017.",
+    "paragraph1": "MarchEng Engenharia opera desde 2017 en los sectores de energía solar y eléctrica. Desde la concepción del proyecto ejecutivo hasta la entrada en operación de la planta, ofrecemos soporte técnico integral con un equipo de especialistas comprometidos con los más altos estándares de ingeniería y seguridad.",
+    "paragraph2": "El nombre MarchEng lleva la herencia italiana del fundador — la familia Marchesini, originaria de Felonica, en la provincia de Mantua, Lombardía. Es un recordatorio diario de que la ingeniería es oficio, no atajo: rigor técnico, plazos respetados y el compromiso de poner cada planta en operación.",
+    "imagePlaceholder": "Imagen próximamente"
+  },
+  "clients": {
+    "title": "Empresas que confían en MarchEng",
+    "subtitle": "Socios que nos confían el ciclo técnico de sus plantas.",
+    "logoAlt": "Cliente"
+  },
+  "contact": {
+    "title": "Hablemos sobre su proyecto",
+    "subtitle": "Nuestro equipo técnico está listo para analizar su necesidad.",
+    "whatsappLabel": "WhatsApp",
+    "emailLabel": "Correo corporativo"
+  },
+  "footer": {
+    "tagline": "Ingeniería y energía con precisión técnica y compromiso con el futuro sostenible desde 2017.",
+    "location": "Santa Adélia - SP, Brasil",
+    "contactTitle": "Contacto",
+    "servicesTitle": "Servicios",
+    "whatsapp": "WhatsApp",
+    "copyright": "© 2026 MarchEng Engenharia Ltda. Todos los derechos reservados."
+  }
+}

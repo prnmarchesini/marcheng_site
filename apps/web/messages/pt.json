@@ -1,1 +1,84 @@
-{}
+{
+  "meta": {
+    "title": "MarchEng | Engenharia e Energia",
+    "description": "Engenharia solar de ponta a ponta, atuando desde 2017. Projetos executivos, comissionamento, due diligence técnica e usinas fotovoltaicas em todo o Brasil."
+  },
+  "nav": {
+    "primary": "Navegação principal",
+    "services": "Serviços",
+    "about": "Sobre",
+    "clients": "Clientes",
+    "contact": "Contato",
+    "cta": "Solicitar orçamento",
+    "openMenu": "Abrir menu",
+    "closeMenu": "Fechar menu",
+    "languageSwitcher": "Selecionar idioma"
+  },
+  "hero": {
+    "eyebrow": "Engenharia e Energia",
+    "headline": "Mais que preço, oferecemos <accent>qualidade</accent> que transforma.",
+    "subheadline": "Engenharia solar de ponta a ponta, desde 2017. 100+ usinas homologadas e 200 MW de parecer de acesso aprovados em todo o Brasil.",
+    "ctaPrimary": "Solicitar orçamento",
+    "ctaSecondary": "Conheça a empresa"
+  },
+  "stats": {
+    "accessApproval": "Em parecer de acesso aprovados",
+    "detailedEngineering": "Em projetos executivos entregues",
+    "gridApproved": "Usinas homologadas",
+    "commissioned": "Usinas comissionadas"
+  },
+  "services": {
+    "eyebrow": "O que fazemos",
+    "title": "Cinco frentes técnicas, do projeto à operação.",
+    "subtitle": "Cobrimos todo o ciclo de vida de uma usina solar — da concepção do projeto executivo à operação assistida em campo.",
+    "items": {
+      "learnMore": "Saiba mais",
+      "solar": {
+        "title": "Engenharia Solar",
+        "description": "Projetos completos de usinas solares, abrangendo as áreas Elétrica, Civil, Comunicação e Segurança."
+      },
+      "electrical": {
+        "title": "Engenharia Elétrica",
+        "description": "Estudos técnicos de curto-circuito, seletividade, aterramento, qualidade de energia e medições em campo."
+      },
+      "owner": {
+        "title": "Engenharia do Proprietário",
+        "description": "Acompanhamento técnico durante todo o ciclo do projeto, com relatórios e laudos conforme normas."
+      },
+      "commissioning": {
+        "title": "Comissionamento e Manutenção",
+        "description": "Verificação técnica completa e manutenção de usinas solares, com cronograma criterioso de ensaios."
+      },
+      "dueDiligence": {
+        "title": "Due Diligence Técnica",
+        "description": "Auditoria técnica de usinas solares para aquisição, refinanciamento ou análise de performance."
+      }
+    }
+  },
+  "about": {
+    "eyebrow": "Sobre a MarchEng",
+    "title": "Engenharia solar, com a experiência de quem está no setor desde 2017.",
+    "paragraph1": "A MarchEng Engenharia atua desde 2017 nos setores de energia solar e elétrica. Da concepção do projeto executivo à entrada em operação da usina, oferecemos suporte técnico completo com uma equipe de especialistas comprometidos com os mais altos padrões de engenharia e segurança.",
+    "paragraph2": "O nome MarchEng carrega a herança italiana do fundador — família Marchesini, originária de Felonica, na província de Mantova, Lombardia. É um lembrete diário de que engenharia é ofício, não atalho: rigor técnico, prazos respeitados, e o compromisso de fazer cada usina entrar em operação.",
+    "imagePlaceholder": "Imagem em breve"
+  },
+  "clients": {
+    "title": "Empresas que confiam na MarchEng",
+    "subtitle": "Parceiros que nos confiam o ciclo técnico de suas usinas.",
+    "logoAlt": "Cliente"
+  },
+  "contact": {
+    "title": "Vamos conversar sobre seu projeto",
+    "subtitle": "Nossa equipe técnica está pronta para analisar sua necessidade.",
+    "whatsappLabel": "WhatsApp",
+    "emailLabel": "E-mail corporativo"
+  },
+  "footer": {
+    "tagline": "Engenharia e energia com precisão técnica e compromisso com o futuro sustentável desde 2017.",
+    "location": "Santa Adélia - SP, Brasil",
+    "contactTitle": "Contato",
+    "servicesTitle": "Serviços",
+    "whatsapp": "WhatsApp",
+    "copyright": "© 2026 MarchEng Engenharia Ltda. Todos os direitos reservados."
+  }
+}

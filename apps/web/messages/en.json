@@ -1,1 +1,84 @@
-{}
+{
+  "meta": {
+    "title": "MarchEng | Engineering and Energy",
+    "description": "End-to-end solar engineering since 2017. Detailed engineering, commissioning, technical due diligence and photovoltaic plants across Brazil."
+  },
+  "nav": {
+    "primary": "Main navigation",
+    "services": "Services",
+    "about": "About",
+    "clients": "Clients",
+    "contact": "Contact",
+    "cta": "Request a quote",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "languageSwitcher": "Select language"
+  },
+  "hero": {
+    "eyebrow": "Engineering and Energy",
+    "headline": "Beyond price, we deliver the <accent>quality</accent> that transforms.",
+    "subheadline": "End-to-end solar engineering since 2017. 100+ grid-connected plants and 200 MW of approved grid access across Brazil.",
+    "ctaPrimary": "Request a quote",
+    "ctaSecondary": "Learn about the company"
+  },
+  "stats": {
+    "accessApproval": "Of approved grid access",
+    "detailedEngineering": "Of detailed engineering delivered",
+    "gridApproved": "Grid-connected plants",
+    "commissioned": "Plants commissioned"
+  },
+  "services": {
+    "eyebrow": "What we do",
+    "title": "Five technical fronts, from design to operation.",
+    "subtitle": "We cover the full lifecycle of a solar plant — from detailed engineering to assisted operation in the field.",
+    "items": {
+      "learnMore": "Learn more",
+      "solar": {
+        "title": "Solar Engineering",
+        "description": "Complete solar plant design covering Electrical, Civil, Communications and Security disciplines."
+      },
+      "electrical": {
+        "title": "Electrical Engineering",
+        "description": "Short-circuit, selectivity, grounding, power quality studies and on-site measurements."
+      },
+      "owner": {
+        "title": "Owner's Engineering",
+        "description": "Technical oversight through the entire project cycle, with reports and compliance assessments."
+      },
+      "commissioning": {
+        "title": "Commissioning & Maintenance",
+        "description": "End-to-end technical verification and maintenance of solar plants, with a rigorous testing schedule."
+      },
+      "dueDiligence": {
+        "title": "Technical Due Diligence",
+        "description": "Technical audit of solar plants for acquisition, refinancing or performance analysis."
+      }
+    }
+  },
+  "about": {
+    "eyebrow": "About MarchEng",
+    "title": "Solar engineering, with the experience of those who have been in the sector since 2017.",
+    "paragraph1": "MarchEng Engineering has been operating since 2017 in solar and electrical energy. From detailed design to plant start-up, we provide complete technical support with a team of specialists committed to the highest engineering and safety standards.",
+    "paragraph2": "The MarchEng name carries the founder's Italian heritage — the Marchesini family, originally from Felonica, in the province of Mantua, Lombardy. It is a daily reminder that engineering is a craft, not a shortcut: technical rigor, respected deadlines, and the commitment to bringing every plant online.",
+    "imagePlaceholder": "Image coming soon"
+  },
+  "clients": {
+    "title": "Companies that trust MarchEng",
+    "subtitle": "Partners who trust us with the technical cycle of their plants.",
+    "logoAlt": "Client"
+  },
+  "contact": {
+    "title": "Let's talk about your project",
+    "subtitle": "Our technical team is ready to assess your needs.",
+    "whatsappLabel": "WhatsApp",
+    "emailLabel": "Corporate e-mail"
+  },
+  "footer": {
+    "tagline": "Engineering and energy with technical precision and a commitment to a sustainable future since 2017.",
+    "location": "Santa Adélia - SP, Brazil",
+    "contactTitle": "Contact",
+    "servicesTitle": "Services",
+    "whatsapp": "WhatsApp",
+    "copyright": "© 2026 MarchEng Engenharia Ltda. All rights reserved."
+  }
+}
