@@ -1,0 +1,51 @@
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Node
+node_modules
+**/node_modules
+.pnpm-store
+.next
+.turbo
+**/.next
+**/.turbo
+
+# Python
+**/__pycache__
+**/*.pyc
+**/.venv
+**/.ruff_cache
+**/.pytest_cache
+**/.mypy_cache
+**/*.egg-info
+**/dist
+**/build
+
+# Env
+.env
+.env.local
+.env.*.local
+**/.env
+**/.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+**/*.log
+
+# IDE
+.vscode
+.idea
+
+# Docs/handoffs (não afetam build)
+Google\ Stitch
+marcheng_setup_monorepo_prompt.md
+marcheng_home_prompt.md
+
+# Outras configs Railway/CI (não afetam o build local do app)
+.github
