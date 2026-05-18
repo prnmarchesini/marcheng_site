@@ -1,0 +1,32 @@
+# Node
+node_modules
+.pnpm-store
+.next
+.turbo
+
+# Python
+__pycache__
+*.pyc
+.venv
+.ruff_cache
+.pytest_cache
+.mypy_cache
+*.egg-info
+dist
+build
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# OpenAPI generated (commit by default — see README)
+# apps/web/openapi.json
+# apps/web/lib/api-types.ts

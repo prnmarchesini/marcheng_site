@@ -1,0 +1,17 @@
+{
+  "name": "api",
+  "private": true,
+  "scripts": {
+    "dev": "uv run uvicorn marcheng_api.main:app --reload --host 0.0.0.0 --port 8000",
+    "build": "uv sync --frozen",
+    "start": "uv run uvicorn marcheng_api.main:app --host 0.0.0.0 --port ${PORT:-8000}",
+    "lint": "uv run ruff check src tests && uv run ruff format --check src tests",
+    "typecheck": "uv run mypy src",
+    "test": "uv run pytest",
+    "export-openapi": "uv run python -m marcheng_api.scripts.export_openapi",
+    "clean": "rimraf .venv .ruff_cache .pytest_cache .mypy_cache"
+  },
+  "devDependencies": {
+    "rimraf": "^6.0.1"
+  }
+}

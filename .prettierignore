@@ -1,0 +1,11 @@
+node_modules
+.next
+.turbo
+dist
+build
+.venv
+__pycache__
+apps/web/openapi.json
+apps/web/lib/api-types.ts
+pnpm-lock.yaml
+uv.lock
